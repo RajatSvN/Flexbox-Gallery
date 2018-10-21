@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	background-color: #F2F2F2;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+div img{
+	margin: 5px ;
+	height: 300px ;
+	width: 300px ;
+	transition: all 1.8s;
+}
+.header{
+	height: 40px;
+	width: 100%;
+    text-align: center;
+    margin : 20px ;
+}
+div img:hover {
+ transform: scale(1.1); 
+}
